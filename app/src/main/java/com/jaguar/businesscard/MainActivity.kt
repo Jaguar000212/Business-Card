@@ -85,7 +85,7 @@ private fun UserContact(modifier: Modifier = Modifier) {
             verticalAlignment = Alignment.CenterVertically
         ) {
             Icon(
-                painter = painterResource(R.mipmap.call_24px),
+                painter = painterResource(R.drawable.call_24px),
                 contentDescription = "call details",
                 modifier = Modifier.padding(8.dp)
             )
@@ -96,7 +96,7 @@ private fun UserContact(modifier: Modifier = Modifier) {
         }
         Row(verticalAlignment = Alignment.CenterVertically) {
             Icon(
-                painter = painterResource(R.mipmap.share_24px),
+                painter = painterResource(R.drawable.share_24px),
                 contentDescription = "instagram handle",
                 modifier = Modifier.padding(8.dp)
             )
@@ -109,7 +109,7 @@ private fun UserContact(modifier: Modifier = Modifier) {
             verticalAlignment = Alignment.CenterVertically
         ) {
             Icon(
-                painter = painterResource(R.mipmap.mail_24px),
+                painter = painterResource(R.drawable.mail_24px),
                 contentDescription = "email address",
                 modifier = Modifier.padding(8.dp)
             )
